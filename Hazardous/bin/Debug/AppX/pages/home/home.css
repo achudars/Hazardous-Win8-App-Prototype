@@ -1,0 +1,1287 @@
+﻿.homepage section[role=main] {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+* {
+	list-style: none;
+}
+@media screen and (-ms-view-state: snapped) {
+    .homepage section[role=main] {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .homepage section[role=main] {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
+
+#contenthost {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+.fragment {
+    /* Define a grid with rows for a banner and a body */
+    -ms-grid-columns: 1fr;
+    -ms-grid-rows: 128px 1fr;
+    display: -ms-grid;
+    height: 100%;
+    width: 100%;
+}
+
+    .fragment header[role=banner] {
+        /* Define a grid with columns for the back button and page title. */
+        -ms-grid-columns: 39px 81px 1fr;
+        -ms-grid-rows: 1fr;
+        display: -ms-grid;
+        background-color: #000;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            -ms-grid-column: 2;
+            margin-top: 59px;
+        }
+
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 3;
+            margin-top: 37px;
+        }
+
+            .fragment header[role=banner] .titlearea .pagetitle {
+                width: calc(100% - 20px);
+            }
+
+    .fragment section[role=main] {
+        -ms-grid-row: 2;
+        height: 100%;
+        width: 100%;
+    }
+
+@media screen and (-ms-view-state: snapped) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: auto 1fr;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+        .fragment header[role=banner] .win-backbutton {
+            -ms-grid-column: 1;
+            margin-bottom: 0;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 76px;
+        }
+
+            .fragment header[role=banner] .win-backbutton:disabled {
+                display: none;
+            }
+
+        .fragment header[role=banner] .titlearea {
+            -ms-grid-column: 2;
+            margin-bottom: 0;
+            margin-left: 5px;
+            margin-right: 5px;
+            margin-top: 68px;
+        }
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+    .fragment header[role=banner] {
+        -ms-grid-columns: 29px 71px 1fr;
+    }
+}
+
+/* dynamic size of the skull*/
+#imageholder img {
+    border-radius: 50%;
+    width: 100%;
+    position: absolute;
+}
+/* dynamic size of the skull and segment holder */
+#wrapper {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    position: absolute;
+    height: 80%;
+    bottom: 20px;
+}
+
+.center {
+    width: 100%-10px;
+    height: 100%-10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+/* pie segments */
+ul.piechart li a {
+    -webkit-transform: skewY(50deg);
+    -moz-transform: skewY(50deg);
+    -ms-transform: skewY(50deg);
+    -o-transform: skewY(50deg);
+    transform: skewY(50deg);
+}
+
+ul.piechart li:nth-child(1) {
+    -webkit-transform: skewY(-50deg);
+    -moz-transform: skewY(-50deg);
+    -ms-transform: skewY(-50deg);
+    -o-transform: skewY(-50deg);
+    transform: skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(1) a {
+        background: #C82F00;
+    }
+
+ul.piechart li:nth-child(2) {
+    -webkit-transform: rotate(40deg) skewY(-50deg);
+    -moz-transform: rotate(40deg) skewY(-50deg);
+    -ms-transform: rotate(40deg) skewY(-50deg);
+    -o-transform: rotate(40deg) skewY(-50deg);
+    transform: rotate(40deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(2) a {
+        background: #F56D20;
+    }
+
+ul.piechart li:nth-child(3) {
+    -webkit-transform: rotate(80deg) skewY(-50deg);
+    -moz-transform: rotate(80deg) skewY(-50deg);
+    -ms-transform: rotate(80deg) skewY(-50deg);
+    -o-transform: rotate(80deg) skewY(-50deg);
+    transform: rotate(80deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(3) a {
+        background: transparent;
+    }
+
+ul.piechart li:nth-child(4) {
+    -webkit-transform: rotate(120deg) skewY(-50deg);
+    -moz-transform: rotate(120deg) skewY(-50deg);
+    -ms-transform: rotate(120deg) skewY(-50deg);
+    -o-transform: rotate(120deg) skewY(-50deg);
+    transform: rotate(120deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(4) a {
+        background: transparent;
+    }
+
+ul.piechart li:nth-child(5) {
+    -webkit-transform: rotate(160deg) skewY(-50deg);
+    -moz-transform: rotate(160deg) skewY(-50deg);
+    -ms-transform: rotate(160deg) skewY(-50deg);
+    -o-transform: rotate(160deg) skewY(-50deg);
+    transform: rotate(160deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(5) a {
+        background: #54D000;
+    }
+
+ul.piechart li:nth-child(6) {
+    -webkit-transform: rotate(200deg) skewY(-50deg);
+    -moz-transform: rotate(200deg) skewY(-50deg);
+    -ms-transform: rotate(200deg) skewY(-50deg);
+    -o-transform: rotate(200deg) skewY(-50deg);
+    transform: rotate(200deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(6) a {
+        background: #74E100;
+    }
+
+ul.piechart li:nth-child(7) {
+    -webkit-transform: rotate(240deg) skewY(-50deg);
+    -moz-transform: rotate(240deg) skewY(-50deg);
+    -ms-transform: rotate(240deg) skewY(-50deg);
+    -o-transform: rotate(240deg) skewY(-50deg);
+    transform: rotate(240deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(7) a {
+        background: #F2F8EE;
+    }
+
+ul.piechart li:nth-child(8) {
+    -webkit-transform: rotate(280deg) skewY(-50deg);
+    -moz-transform: rotate(280deg) skewY(-50deg);
+    -ms-transform: rotate(280deg) skewY(-50deg);
+    -o-transform: rotate(280deg) skewY(-50deg);
+    transform: rotate(280deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(8) a {
+        background: transparent;
+    }
+
+ul.piechart li:nth-child(9) {
+    -webkit-transform: rotate(320deg) skewY(-50deg);
+    -moz-transform: rotate(320deg) skewY(-50deg);
+    -ms-transform: rotate(320deg) skewY(-50deg);
+    -o-transform: rotate(320deg) skewY(-50deg);
+    transform: rotate(320deg) skewY(-50deg);
+}
+
+    ul.piechart li:nth-child(9) a {
+        background: #6F2E01;
+    }
+/* explanation text boxes */
+.textbox {
+    opacity: 0.9;
+    box-shadow: 2px 2px 0px #888888;
+    color: black;
+    width: 120px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 2px;
+    position: absolute;
+    z-index: 1000;
+    text-align: center;
+}
+
+    .textbox:focus {
+        opacity: 1;
+    }
+
+#tb1 {
+    background: #F56D20;
+}
+
+#tb2 {
+    background: #C82F00;
+}
+
+#tb3 {
+    background: #6F2E01;
+}
+
+#tb4 {
+    background: #54D000;
+}
+
+#tb5 {
+    background: #74E100;
+}
+
+#tb6 {
+    background: #F2F8EE;
+}
+/**********************************************************************/
+
+@media all and (width:1024px) and (-ms-view-state: fullscreen-landscape) {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -180px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (width:1366px) and (-ms-view-state: fullscreen-landscape) {
+    /* Regular content size when scaled by 100% */
+
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 230px;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -180px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (width:1280px) and (-ms-view-state: fullscreen-landscape)  {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -200px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (width:1920px) and (-ms-view-state: fullscreen-landscape)  {
+	/* textboxes*/
+	.textbox {width: 300px; height: 50px; font-size: 30px;}
+    #tb1 {top: 300px;left: 100px;}
+    #tb2 {top: 600px;left: 50px;}
+    #tb3 {top: 900px;left: 100px;}
+    #tb4 {top: 300px;right: 100px;}
+    #tb5 {top: 600px;right: 50px;}
+    #tb6 {top: 900px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 300px;
+        list-style: none;
+        top: -200px;
+        width: 1088px;
+        height: 1088px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 960px;
+            height: 960px;
+            background: transparent;
+            position: absolute;
+            left: 544px;
+            top: -416px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 960px;
+            -moz-transform-origin: 0 960px;
+            -ms-transform-origin: 0 960px;
+            -o-transform-origin: 0 960px;
+            transform-origin: 0 960px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 960px;
+                height: 960px;
+                border-radius: 960px;
+                position: absolute;
+                left: -480px;
+                top: 480px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 640px;
+                height: 640px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 640px;
+                position: absolute;
+				background-image: url('/images/pattern.png');
+                left: 224px;
+                top: 224px;
+            }
+	/* skull */
+    #imageholder {
+        width: 650px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -300px;
+        margin-top: -400px;
+    }
+}
+
+@media all and (width:2560px) and (-ms-view-state: fullscreen-landscape)  {
+	/* textboxes*/
+    .textbox {width: 400px; height: 80px; font-size: 40px;}
+    #tb1 {top: 400px;left: 100px;}
+    #tb2 {top: 800px;left: 50px;}
+    #tb3 {top: 1200px;left: 100px;}
+    #tb4 {top: 400px;right: 100px;}
+    #tb5 {top: 800px;right: 50px;}
+    #tb6 {top: 1200px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 480px;
+        list-style: none;
+        top: -250px;
+        width: 1360px;
+        height: 1360px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 1200px;
+            height: 1200px;
+            background: transparent;
+            position: absolute;
+            left: 680px;
+            top: -520px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 1200px;
+            -moz-transform-origin: 0 1200px;
+            -ms-transform-origin: 0 1200px;
+            -o-transform-origin: 0 1200px;
+            transform-origin: 0 1200px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 1200px;
+                height: 1200px;
+                border-radius: 1200px;
+                position: absolute;
+                left: -600px;
+                top: 600px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 800px;
+                height: 800px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 800px;
+                position: absolute;
+				background-image: url('/images/pattern.png');
+                left: 280px;
+                top: 280px;
+            }
+	/* skull */
+    #imageholder {
+        width: 800px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -400px;
+        margin-top: -500px;
+    }
+}
+
+@media all and (min-resolution: 100dpi) and (-ms-view-state: fullscreen-landscape)  {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -220px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (min-resolution: 172dpi) and (-ms-view-state: fullscreen-landscape)  {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 250px;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -200px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (height:768px) and (-ms-view-state: filled) {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+			/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -180px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (height:800px) and (-ms-view-state: filled)  {
+
+}
+
+@media all and (height:1080px) and (-ms-view-state: filled)  {
+	/* textboxes*/
+	.textbox {width: 200px; height: 50px; font-size: 20px;}
+    #tb1 {top: 300px;left: 100px;}
+    #tb2 {top: 600px;left: 50px;}
+    #tb3 {top: 900px;left: 100px;}
+    #tb4 {top: 300px;right: 100px;}
+    #tb5 {top: 600px;right: 50px;}
+    #tb6 {top: 900px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 120px;
+        list-style: none;
+        top: -200px;
+        width: 1088px;
+        height: 1088px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 960px;
+            height: 960px;
+            background: transparent;
+            position: absolute;
+            left: 544px;
+            top: -416px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 960px;
+            -moz-transform-origin: 0 960px;
+            -ms-transform-origin: 0 960px;
+            -o-transform-origin: 0 960px;
+            transform-origin: 0 960px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 960px;
+                height: 960px;
+                border-radius: 960px;
+                position: absolute;
+                left: -480px;
+                top: 480px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 640px;
+                height: 640px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 640px;
+                position: absolute;
+				background-image: url('/images/pattern.png');
+                left: 224px;
+                top: 224px;
+            }
+	/* skull */
+    #imageholder {
+        width: 650px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -320px;
+        margin-top: -400px;
+    }
+
+}
+
+@media all and (height:1440px) and (-ms-view-state: filled)  {
+	/* textboxes*/
+    .textbox {width: 300px; height: 60px; font-size: 30px;}
+    #tb1 {top: 400px;left: 100px;}
+    #tb2 {top: 800px;left: 50px;}
+    #tb3 {top: 1200px;left: 100px;}
+    #tb4 {top: 400px;right: 100px;}
+    #tb5 {top: 800px;right: 50px;}
+    #tb6 {top: 1200px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+		margin-left: 300px;
+        list-style: none;
+        top: -250px;
+        width: 1360px;
+        height: 1360px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 1200px;
+            height: 1200px;
+            background: transparent;
+            position: absolute;
+            left: 680px;
+            top: -520px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 1200px;
+            -moz-transform-origin: 0 1200px;
+            -ms-transform-origin: 0 1200px;
+            -o-transform-origin: 0 1200px;
+            transform-origin: 0 1200px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 1200px;
+                height: 1200px;
+                border-radius: 1200px;
+                position: absolute;
+                left: -600px;
+                top: 600px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 800px;
+                height: 800px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 800px;
+                position: absolute;
+				background-image: url('/images/pattern.png');
+                left: 280px;
+                top: 280px;
+            }
+	/* skull */
+    #imageholder {
+        width: 800px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -400px;
+        margin-top: -500px;
+    }
+}
+
+@media all and (min-resolution: 100dpi) and (-ms-view-state: filled)  {
+	/* textboxes*/
+    #tb1 {top: 200px;left: 100px;}
+    #tb2 {top: 400px;left: 50px;}
+    #tb3 {top: 600px;left: 100px;}
+    #tb4 {top: 200px;right: 100px;}
+    #tb5 {top: 400px;right: 50px;}
+    #tb6 {top: 600px;right: 100px;}
+	/* pie */
+    ul.piechart {
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+        top: -60px;
+        width: 680px;
+        height: 680px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform: rotate(-120deg);
+        -moz-transform: rotate(-120deg);
+        -ms-transform: rotate(-120deg);
+        -o-transform: rotate(-120deg);
+        transform: rotate(-120deg);
+    }
+
+
+        ul.piechart li {
+            width: 600px;
+            height: 600px;
+            background: transparent;
+            position: absolute;
+            left: 340px;
+            top: -260px;
+            overflow: hidden;
+            -webkit-transform-origin: 0 600px;
+            -moz-transform-origin: 0 600px;
+            -ms-transform-origin: 0 600px;
+            -o-transform-origin: 0 600px;
+            transform-origin: 0 600px;
+        }
+
+
+
+            ul.piechart li:nth-child(1) a,
+            ul.piechart li:nth-child(2) a,
+            ul.piechart li:nth-child(3) a,
+            ul.piechart li:nth-child(4) a,
+            ul.piechart li:nth-child(5) a,
+            ul.piechart li:nth-child(6) a,
+            ul.piechart li:nth-child(7) a,
+            ul.piechart li:nth-child(8) a,
+            ul.piechart li:nth-child(9) a {
+                display: block;
+                width: 600px;
+                height: 600px;
+                border-radius: 600px;
+                position: absolute;
+                left: -300px;
+                top: 300px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+            }
+
+            ul.piechart li:nth-child(10) {
+                width: 400px;
+                height: 400px;
+                box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+                border-radius: 400px;
+                background-image: url('/images/pattern.png');
+                position: absolute;
+                left: 140px;
+                top: 140px;
+            }
+	/* skull */
+    #imageholder {
+        width: 400px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -180px;
+        margin-top: -250px;
+    }
+}
+
+@media all and (height:768px) and (-ms-view-state: snapped) {
+	/* textboxes*/
+    .textbox {
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display:inline-block;
+		position:relative;
+	}
+	/* skull */
+    #imageholder {
+        display:none;
+    }
+}
+
+@media all and (height:800px) and (-ms-view-state: snapped)  {
+}
+
+@media all and (height:1080px) and (-ms-view-state: snapped)  {
+	/* textboxes*/
+    .textbox {
+		font-size:30px;
+		width: 80%;
+		height:80px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display:inline-block;
+		position:relative;
+	}
+	/* skull */
+    #imageholder {
+        display:none;
+    }
+}
+
+@media all and (height:1440px) and (-ms-view-state: snapped)  {
+	/* textboxes*/
+    .textbox {
+		font-size:30px;
+		width: 80%;
+		height:80px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display:inline-block;
+		position:relative;
+	}
+	/* skull */
+    #imageholder {
+        display:none;
+    }
+}
+
+@media all and (min-resolution: 100dpi) and (-ms-view-state: snapped)  {
+	/* textboxes*/
+    .textbox {
+		width: 80%;
+		margin-top: 20px;
+		margin-bottom: 10px;
+		display:inline-block;
+		position:relative;
+	}
+	/* skull */
+    #imageholder {
+        display:none;
+    }
+}
+
+@media all and (min-resolution: 172dpi) and (-ms-view-state: snapped)  {
+}

@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>homePage</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/home/home.css" rel="stylesheet" />
+    <script src="/pages/home/home.js"></script>
+    <script src="/js/data.js"></script>
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="fragment homepage">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled type="button"></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle">Hazardous</span>
+            </h1>
+        </header>
+        <section aria-label="Main content" role="main">
+            <div class="textbox" id="tb1">CLASSIFICATION</div>
+            <div class="textbox" id="tb2">GHS</div>
+            <div class="textbox" id="tb3">CHIP</div>
+            <div class="textbox" id="tb4">HIN</div>
+            <div class="textbox" id="tb5">HAZARD SIGNS</div>
+            <div class="textbox" id="tb6">RISK &amp; SAFETY PHRASES</div>
+            <!--
+            <p><a href="/pages/chip/chip.html">Go to chip.</a></p>
+            <p><a href="/pages/classification/classification.html">Go to classification.</a></p>
+            <p><a href="/pages/ghs/ghs.html">Go to ghs.</a></p>
+            <p><a href="/pages/hin/hin.html">Go to hin.</a></p>
+            <p><a href="/pages/phrases/phrases.html">Go to phrases.</a></p>
+            <p><a href="/pages/signs/signs.html">Go to signs.</a></p>
+            -->
+            <div id="wrapper">
+                <div class="center">
+                    <ul class="piechart">
+                        <li><a id="ghs" href="/pages/ghs/ghs.html"></a></li>
+                        <li><a id="classification" href="/pages/classification/classification.html"></a></li>
+                        <li></li>
+                        <li></li>
+                        <li><a id="hin" href="/pages/hin/hin.html"></a></li>
+                        <li><a id="signs" href="/pages/signs/signs.html"></a></li>
+                        <li><a id="phrases" href="/pages/phrases/phrases.html"></a></li>
+                        <li></li>
+                        <li><a id="chip" href="/pages/chip/chip.html"></a></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+			
+            <div id="imageholder">
+                <img src="/images/skull3.png">
+            </div>
+
+		</section>
+	</div>
+</body>
+</html>

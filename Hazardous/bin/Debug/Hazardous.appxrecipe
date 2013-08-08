@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>TEAPOT</Machine>
+    <WindowsUser>Aleksandrs</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\chip\chip.css">
+      <PackagePath>pages\chip\chip.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\classification\classification.css">
+      <PackagePath>pages\classification\classification.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\ghs\ghs.css">
+      <PackagePath>pages\ghs\ghs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\hin\hin.css">
+      <PackagePath>pages\hin\hin.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\phrases\phrases.css">
+      <PackagePath>pages\phrases\phrases.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\signs\signs.css">
+      <PackagePath>pages\signs\signs.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\split\split.css">
+      <PackagePath>pages\split\split.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\fonts\Ubuntu-C.woff">
+      <PackagePath>fonts\Ubuntu-C.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\0.png">
+      <PackagePath>images\0.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\1.png">
+      <PackagePath>images\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\1_1.png">
+      <PackagePath>images\1_1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\2.png">
+      <PackagePath>images\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\3.png">
+      <PackagePath>images\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\388px-WMD-chemical.svg.png">
+      <PackagePath>images\388px-WMD-chemical.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\4.png">
+      <PackagePath>images\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\5.png">
+      <PackagePath>images\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_C.svg.png">
+      <PackagePath>images\500px-Hazard_C.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_F.svg.png">
+      <PackagePath>images\500px-Hazard_F.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_N.svg.png">
+      <PackagePath>images\500px-Hazard_N.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_O.svg.png">
+      <PackagePath>images\500px-Hazard_O.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_T.svg.png">
+      <PackagePath>images\500px-Hazard_T.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\500px-Hazard_X.svg.png">
+      <PackagePath>images\500px-Hazard_X.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\510px-Skull_and_crossbones.svg.png">
+      <PackagePath>images\510px-Skull_and_crossbones.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\589px-New_radiation_symbol_ISO_21482.svg.png">
+      <PackagePath>images\589px-New_radiation_symbol_ISO_21482.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\6.png">
+      <PackagePath>images\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-Biohazard.svg.png">
+      <PackagePath>images\600px-Biohazard.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-Caution_sign_used_on_roads_pn.svg.png">
+      <PackagePath>images\600px-Caution_sign_used_on_roads_pn.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-Label_for_dangerous_goods_-_class_4.3.svg.png">
+      <PackagePath>images\600px-Label_for_dangerous_goods_-_class_4.3.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-Radiation_warning_symbol.svg.png">
+      <PackagePath>images\600px-Radiation_warning_symbol.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-Radio_waves_hazard_symbol.svg.png">
+      <PackagePath>images\600px-Radio_waves_hazard_symbol.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\600px-TsunamiHazardSign.svg.png">
+      <PackagePath>images\600px-TsunamiHazardSign.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\616px-DIN_4844-2_Warnung_vor_einer_Gefahrenstelle_D-W000.svg.png">
+      <PackagePath>images\616px-DIN_4844-2_Warnung_vor_einer_Gefahrenstelle_D-W000.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\616px-DIN_4844-2_Warnung_vor_Laserstrahl_D-W010.svg.png">
+      <PackagePath>images\616px-DIN_4844-2_Warnung_vor_Laserstrahl_D-W010.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\616px-DIN_4844-2_Warnung_vor_magnetischem_Feld_D-W013.svg.png">
+      <PackagePath>images\616px-DIN_4844-2_Warnung_vor_magnetischem_Feld_D-W013.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\616px-DIN_4844-2_Warnung_vor_optischer_Strahlung_D-W009.svg.png">
+      <PackagePath>images\616px-DIN_4844-2_Warnung_vor_optischer_Strahlung_D-W009.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\7.png">
+      <PackagePath>images\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\704px-High_voltage_warning.svg.png">
+      <PackagePath>images\704px-High_voltage_warning.svg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\8.png">
+      <PackagePath>images\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\9.png">
+      <PackagePath>images\9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\acid_red.png">
+      <PackagePath>images\acid_red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\Aquatic-pollut-red.png">
+      <PackagePath>images\Aquatic-pollut-red.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\bottle.png">
+      <PackagePath>images\bottle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\dark.about.png">
+      <PackagePath>images\dark.about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\dark.r.png">
+      <PackagePath>images\dark.r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\dark.s.png">
+      <PackagePath>images\dark.s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\dark.search.png">
+      <PackagePath>images\dark.search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\dark.u.png">
+      <PackagePath>images\dark.u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\exclam.png">
+      <PackagePath>images\exclam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\explos.png">
+      <PackagePath>images\explos.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\flamme.png">
+      <PackagePath>images\flamme.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1-2_Explosives.png">
+      <PackagePath>images\HAZMAT_Class_1-2_Explosives.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1-3_Explosives.png">
+      <PackagePath>images\HAZMAT_Class_1-3_Explosives.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1-4_Explosives.png">
+      <PackagePath>images\HAZMAT_Class_1-4_Explosives.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1-5_Blasting_Agents.png">
+      <PackagePath>images\HAZMAT_Class_1-5_Blasting_Agents.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1-6_Explosives.png">
+      <PackagePath>images\HAZMAT_Class_1-6_Explosives.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_1_Explosives.png">
+      <PackagePath>images\HAZMAT_Class_1_Explosives.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_2-1_Flammable_Gas.png">
+      <PackagePath>images\HAZMAT_Class_2-1_Flammable_Gas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_2-2_Nonflammable_Gas.png">
+      <PackagePath>images\HAZMAT_Class_2-2_Nonflammable_Gas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_2-2_Oxygen.png">
+      <PackagePath>images\HAZMAT_Class_2-2_Oxygen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_2-3_Inhalation_Hazard.png">
+      <PackagePath>images\HAZMAT_Class_2-3_Inhalation_Hazard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_2-3_Poisonous_Gas.png">
+      <PackagePath>images\HAZMAT_Class_2-3_Poisonous_Gas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_3_Combustible.png">
+      <PackagePath>images\HAZMAT_Class_3_Combustible.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_3_Flammable_Liquids.png">
+      <PackagePath>images\HAZMAT_Class_3_Flammable_Liquids.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_3_Fuel_Oil.png">
+      <PackagePath>images\HAZMAT_Class_3_Fuel_Oil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_3_Gasoline.png">
+      <PackagePath>images\HAZMAT_Class_3_Gasoline.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_4-1_Flammable_Solid.png">
+      <PackagePath>images\HAZMAT_Class_4-1_Flammable_Solid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_4-2_Spontaneously_Combustible_Solid.png">
+      <PackagePath>images\HAZMAT_Class_4-2_Spontaneously_Combustible_Solid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_5-1_Oxidizing_Agent.png">
+      <PackagePath>images\HAZMAT_Class_5-1_Oxidizing_Agent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_5-2_Organic_Peroxide_Oxidizing_Agent.png">
+      <PackagePath>images\HAZMAT_Class_5-2_Organic_Peroxide_Oxidizing_Agent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_6-1_Poison.png">
+      <PackagePath>images\HAZMAT_Class_6-1_Poison.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_6-2_Biohazard.png">
+      <PackagePath>images\HAZMAT_Class_6-2_Biohazard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_7_Radioactive.png">
+      <PackagePath>images\HAZMAT_Class_7_Radioactive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_8_Corrosive.png">
+      <PackagePath>images\HAZMAT_Class_8_Corrosive.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\HAZMAT_Class_9_Miscellaneous.png">
+      <PackagePath>images\HAZMAT_Class_9_Miscellaneous.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\light.about.png">
+      <PackagePath>images\light.about.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\light.r.png">
+      <PackagePath>images\light.r.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\light.s.png">
+      <PackagePath>images\light.s.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\light.search.png">
+      <PackagePath>images\light.search.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\light.u.png">
+      <PackagePath>images\light.u.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\pattern.png">
+      <PackagePath>images\pattern.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\rondflam.png">
+      <PackagePath>images\rondflam.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\silhouete.png">
+      <PackagePath>images\silhouete.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\skull.png">
+      <PackagePath>images\skull.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\skull3.png">
+      <PackagePath>images\skull3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\transport-flammablegases.png">
+      <PackagePath>images\transport-flammablegases.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\transport-flammableliquids.png">
+      <PackagePath>images\transport-flammableliquids.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\x.png">
+      <PackagePath>images\x.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\images\explosives.jpg">
+      <PackagePath>images\explosives.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\js\data.js">
+      <PackagePath>js\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\chip\chip.js">
+      <PackagePath>pages\chip\chip.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\chip\data.js">
+      <PackagePath>pages\chip\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\classification\classification.js">
+      <PackagePath>pages\classification\classification.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\classification\data.js">
+      <PackagePath>pages\classification\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\ghs\data.js">
+      <PackagePath>pages\ghs\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\ghs\ghs.js">
+      <PackagePath>pages\ghs\ghs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\hin\data.js">
+      <PackagePath>pages\hin\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\hin\hin.js">
+      <PackagePath>pages\hin\hin.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\phrases\data.js">
+      <PackagePath>pages\phrases\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\phrases\phrases.js">
+      <PackagePath>pages\phrases\phrases.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\signs\data.js">
+      <PackagePath>pages\signs\data.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\signs\signs.js">
+      <PackagePath>pages\signs\signs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\split\split.js">
+      <PackagePath>pages\split\split.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\chip\chip.html">
+      <PackagePath>pages\chip\chip.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\classification\classification.html">
+      <PackagePath>pages\classification\classification.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\ghs\ghs.html">
+      <PackagePath>pages\ghs\ghs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\hin\hin.html">
+      <PackagePath>pages\hin\hin.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\phrases\phrases.html">
+      <PackagePath>pages\phrases\phrases.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\signs\signs.html">
+      <PackagePath>pages\signs\signs.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\pages\split\split.html">
+      <PackagePath>pages\split\split.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

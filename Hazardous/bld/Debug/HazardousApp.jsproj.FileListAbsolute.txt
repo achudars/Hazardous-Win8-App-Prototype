@@ -1,0 +1,13 @@
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bin\Debug\resources.pri
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bin\Debug\AppxManifest.xml
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bin\Debug\HazardousApp.build.appxrecipe
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\priconfig.xml.intermediate
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\layout.resfiles.intermediate
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\resources.resfiles.intermediate
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\pri.resfiles.intermediate
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\priconfig.xml
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\layout.resfiles
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\resources.resfiles
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\pri.resfiles
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\LanguageQualifiers.txt
+C:\Users\Aleksandrs\Documents\Visual Studio 2012\Projects\Hazardous\Hazardous\bld\Debug\ProjectArchitectures.txt
